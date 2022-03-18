@@ -1,0 +1,32 @@
+Alright, seems it is working fine on your side.
+For the test code audition basically you have to build an Admin panel viewing / editing user accounts (table). You can use 3rd party libraries for the development. 
+Available filters: email, verified (0/1), NIP, name, premium (0/1 )
+
+Displayed columns: email, verified (0/1), NIP, name, address, premium access till specifc date once the payment has been done, 
+last login (date)
++ a column at the end with the "edit" button, which takes you to the form where you can change all the values for the user and set a new password
+
+While checking the company - if the current user is "premium", then once the entity has been found in the database, we display a list of ratings and comments about it.
+
+At all we need to be sure about your well coding practice in architecting project.. conventions, structure, how make the foundation of the app and organize files and folders through most important coding guidelines and quality. This knowledge is indispensable to undertake work in our team room.
+
+To complete your test assignment you have 48 hrs to submit your results. Get in touch with me if you have any questions or concerns.
+
+==================================================
+- Install laravel datatable (its already there now)
+- render a layout for user controll page
+
+- create a route and render the user grid there
+
+===================================================
+For the test code audition basically you have to build an Admin panel viewing / editing user accounts (table). You can use 3rd party libraries for the development.
+table column lists here : 
+------------------------------------------
+email, 
+verified (0/1),
+NIP,
+name,
+premium(0/1)
+
+<!--  dataTables CSS -->
+<link href="{{ asset('backend/assets_v2/css/dataTables.css') }}" rel="stylesheet" type="text/css" />
